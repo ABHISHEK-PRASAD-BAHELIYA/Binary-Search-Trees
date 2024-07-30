@@ -5,7 +5,6 @@ class Node {
         this.right = right;
     }
 }
-
 class Tree {
     constructor(array) {
         this.root = this.buildtree([...new set(array)].sort((a, b) => a - b));
